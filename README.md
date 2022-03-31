@@ -1,13 +1,13 @@
-# IntentSlotDatasets
+# Intent and Slots Datasets
 This repository contains the two famouse dataset namely ATIS and SNIPS used for Intent Classification and Slot Filling tasks. In this repostory, I've changed the data format, making common for both of them. The data scheme is the following:
 ```json
 [
   {
-    'utterance': 'on april first i need a flight going from phoenix to san diego', 
-    'slots':'O B-depart_date.month_name B-depart_date.day_number O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name', 
-    'intent':'flight'
+    "utterance": "on april first i need a flight going from phoenix to san diego", 
+    "slots": "O B-depart_date.month_name B-depart_date.day_number O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name", 
+    "intent": "flight"
    },
-   ...
+   "..."
 ]
 ```
 Basically, the data scheme is a array of dictionaires, where each dictionary is an element of the dataset.
