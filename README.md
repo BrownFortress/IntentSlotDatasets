@@ -1,5 +1,5 @@
 # Intent and Slots Datasets
-This repository contains the two famouse dataset namely ATIS and SNIPS used for Intent Classification and Slot Filling tasks. In this repostory, I've changed the data format, making common for both of them. The data scheme is the following:
+This repository contains the two famouse datasets namely ATIS and SNIPS used for benchmarking models on Intent Classification and Slot Filling tasks. In this repostory, I've changed the data format, making it common for both of them. The data scheme is the following:
 ```json
 [
   {
@@ -10,7 +10,7 @@ This repository contains the two famouse dataset namely ATIS and SNIPS used for 
    "..."
 ]
 ```
-Basically, the data scheme is a array of dictionaires, where each dictionary is an element of the dataset.
+Basically, the data scheme is an array of dictionaires, where each dictionary is an element of the dataset.
 
 ## ATIS 
 ATIS dataset has been taken from Microsof CNTK: https://github.com/Microsoft/CNTK/tree/master/Examples/LanguageUnderstanding/ATIS/Data. It is split in training and test sets containing 4978 and 893 examples, respetively. 
