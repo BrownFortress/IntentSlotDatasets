@@ -15,4 +15,4 @@ Basically, the data scheme is a array of dictionaires, where each dictionary is 
 ## ATIS 
 ATIS dataset has been taken from Microsof CNTK: https://github.com/Microsoft/CNTK/tree/master/Examples/LanguageUnderstanding/ATIS/Data. It is split in training and test sets containing 4978 and 893 examples, respetively. 
 ## SNIPS
-SNIPS dataset has been taken from the git hub repo: https://github.com/ZhenwenZhang/Slot_Filling 
+SNIPS dataset has been taken from the GitHub repo: https://github.com/ZhenwenZhang/Slot_Filling 
